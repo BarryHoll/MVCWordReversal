@@ -48,11 +48,11 @@ public class WordReversalView  extends JFrame {
 		outReversedSentenceText.setText(revSentence);
 	}
 	
-	void addReversalListener(ActionListener listenForReverseButton){
+	public void addReversalListener(ActionListener listenForReverseButton){
 		reverseButton.addActionListener(listenForReverseButton);
 	}
 	
-	void displayErrorMessage(String errorMessage){
+	public void displayErrorMessage(String errorMessage){
 		JOptionPane.showMessageDialog(this, errorMessage);
 	}
 	
