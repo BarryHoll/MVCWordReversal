@@ -17,7 +17,7 @@ public class WordReversalModel {
 			if(reversedWords.equals("")){
 				reversedWords = new StringBuilder(word).reverse().toString();
 			}else{
-				reversedWords = reversedWords + new StringBuilder(word).reverse().toString();
+				reversedWords = reversedWords + " " +new StringBuilder(word).reverse().toString();
 			}
 		}
 	}
