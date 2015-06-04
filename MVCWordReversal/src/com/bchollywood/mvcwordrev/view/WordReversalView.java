@@ -22,7 +22,8 @@ public class WordReversalView  extends JFrame {
 		JPanel wordReversalPanel = new JPanel();
 		
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		this.setSize(400, 400);
+		this.setSize(450, 250);
+		this.setTitle("MVC Word Reversal App");
 		
 		wordReversalPanel.add(inputSentenceLabel);
 		wordReversalPanel.add(inputSentenceText);
