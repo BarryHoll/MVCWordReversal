@@ -17,7 +17,7 @@ public class WordReversalView  extends JFrame {
 	private JLabel reversedSentenceLabel = new JLabel("Reversed Sentence:");
 	private JTextField outReversedSentenceText = new JTextField(30);
 	
-	WordReversalView() {
+	public WordReversalView() {
 		
 		JPanel wordReversalPanel = new JPanel();
 		
